@@ -17,6 +17,7 @@ urlpatterns = [
 
     path('', include('store.urls')),
     path('', include('about.urls')),
+    path('', include('account.urls')),
 
 
 
