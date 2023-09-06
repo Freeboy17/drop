@@ -1,0 +1,41 @@
+{% load static %}
+<nav>
+    <div>
+      <ul >
+        <li>
+          <a href="{% url 'home' %}">Home</span></a>
+        </li>
+        <li>
+          <a href="{% url 'store' %}">Store</a>
+        </li>
+        <li>
+          <a href="#">About us</a>
+        </li>
+        <li >
+          <a href="#">Contact us</a>
+        </li>
+        <li>
+            <a href="#">sign in</a>
+          </li>
+          <li>
+            <a href="#">cart</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <body>
+
+
+    {% block content %} 
+    
+    
+
+
+        
+    {% endblock %}
+
+    
+
+
+</body>
