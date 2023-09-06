@@ -1,3 +1,10 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+#from django.shortcuts import get_object_or_404
+
+
+def about(request):
+
+    return render(request, 'about.html')
+
