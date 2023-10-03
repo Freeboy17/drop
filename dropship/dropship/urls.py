@@ -16,9 +16,9 @@ urlpatterns = [
     # Store app
 
     path('', include('store.urls')),
-    path('', include('about.urls')),
-    path('', include('account.urls')),
-    #path('', include('cart.urls')),
+    path('about/', include('about.urls')),
+    path('account/', include('account.urls')),
+    path('cart', include('cart.urls')),
     
 
 

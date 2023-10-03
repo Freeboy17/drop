@@ -19,3 +19,9 @@ def home(request):
 
     return render(request, 'home.html')
 
+def product_page(request):
+
+    all_products = Product.objects.all()
+    print(Product.objects.all())
+
+    return render(request, 'product-page.html')

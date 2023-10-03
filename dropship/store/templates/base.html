@@ -16,7 +16,7 @@
           <a href="#">Contact us</a>
         </li>
           <li>
-            <a href="#">cart</a>
+            <a href="{% url 'cart-summary' %}">cart</a>
           </li>
           {% if user.is_authenticated %}
       
